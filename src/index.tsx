@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import DynamicFormRenderer from './DynamicFormRenderer';
 import reportWebVitals from './reportWebVitals';
+import {components} from './config/ComponentConfig'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DynamicFormRenderer components={components} />
   </React.StrictMode>,
   document.getElementById('root')
 );

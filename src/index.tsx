@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import DynamicFormRenderer from './DynamicFormRenderer';
+import DynamicFormRJSF from './DynamicFormRJSF'
 import reportWebVitals from './reportWebVitals';
 import { components } from './config/ComponentConfig'
 
 ReactDOM.render(
   <React.StrictMode>
-    <DynamicFormRenderer
+    {/* <DynamicFormRenderer
       components={components}
       formTitle="Dynamic Form Renderer"
       submitButtonLabel="Save"
-    />
+    /> */}
+    <DynamicFormRJSF/>
   </React.StrictMode>,
   document.getElementById('root')
 );

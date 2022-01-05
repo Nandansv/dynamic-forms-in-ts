@@ -2,7 +2,6 @@ import { ReactElement, FC } from "react";
 import Form from "@rjsf/material-ui";
 import { JSONSchema7 } from "json-schema";
 
-
 const DynamicFormRJSF: FC<any> = (props): ReactElement => {
 
     const schema: JSONSchema7 = {
@@ -10,7 +9,7 @@ const DynamicFormRJSF: FC<any> = (props): ReactElement => {
         "description": "Account Creation Form",
         "type": "object",
         "properties": {
-            "Account Type" :
+            "accountType" :
             {
                 "type": "number",
                 "anyOf": [
@@ -37,27 +36,36 @@ const DynamicFormRJSF: FC<any> = (props): ReactElement => {
                   }
                 ]
               },
-            "Name": {
+            "name": {
                 "type": "string"
             },
-            "Legal Business Name": {
+            "legalBusinessName": {
                 "type": "string"
             },
-            "Tax ID": {
+            "taxId": {
                 "type": "string"
             },
-            "Short Description": {
+            "shortDescription": {
                 "type": "string"
             },
-            "Long Description" :{
+            "longDescription" :{
                 "type": "string"
             }
         }
+        
     };
-
+    
+    const uiSchema = {
+        longDescription : {"ui:widget": "textarea",
+        "ui:options": {
+          rows: 4
+        }}
+    }
     return (
         <div style={{ border: '1px solid black', margin: 'auto', display: 'table' }}>
             <Form schema={schema}
+            uiSchema={uiSchema}
+            
             />
         </div>
     )

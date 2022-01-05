@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import DynamicFormRenderer from './DynamicFormRenderer';
-import DynamicFormRJSF from './DynamicFormRJSF'
+import DynamicFormRJSF from './DynamicFormRJSF';
+import DynamicFormDDF  from './DynamicFormDDF';
 import reportWebVitals from './reportWebVitals';
 import { components } from './config/ComponentConfig'
+import './style.css'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,7 +14,8 @@ ReactDOM.render(
       formTitle="Dynamic Form Renderer"
       submitButtonLabel="Save"
     /> */}
-    <DynamicFormRJSF/>
+    {/* <DynamicFormRJSF/> */}
+    <DynamicFormDDF/>
   </React.StrictMode>,
   document.getElementById('root')
 );

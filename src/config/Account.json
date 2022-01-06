@@ -1,0 +1,78 @@
+{
+    "Id": "5789d625-4562-47d5-abc3-14b69b4003a6",
+    "Archived": false,
+    "CUSTCD": null,
+    "ClientCode": null,
+    "Deleted": false,
+    "Discriminator": "Account",
+    "IsTaxExempt": false,
+    "LCode": null,
+    "LegalBusinessName": null,
+    "LongDescription": "Summa Health Akron Barberton",
+    "Name": "Summa Health System",
+    "Npi": null,
+    "PrimaryAccountTypeId": 0,
+    "QdxVersion": null,
+    "ShortDescription": "Summa Health",
+    "TaxIdentificationNumber": "340714755",
+    "Uuid": "4cf22231-3e7f-415e-82ac-e55cb32f9302",
+    "id": "Account|5789d625-4562-47d5-abc3-14b69b4003a6",
+    "AccountAddresses": [
+        {
+            "AddressId": "a05d4693-cd0d-400d-8266-a5b6092da191",
+            "Address1": "141 N. Forge St.",
+            "Address2": "Akron",
+            "AddressTypeId": 0,
+            "Archived": false,
+            "City": "OH",
+            "Name": "Physical Address",
+            "State": "44304",
+            "Zip4": "",
+            "Zip5": "1077 "
+        },
+        {
+            "AddressId": "b0e2bd79-c9d9-4815-9a1d-689a9949969e",
+            "Address1": "1077 Gorge Blvd.",
+            "Address2": "",
+            "AddressTypeId": 0,
+            "Archived": false,
+            "City": "Akron",
+            "Name": "Invoice Address",
+            "State": "Akron",
+            "Zip4": "",
+            "Zip5": "44310"
+        }
+    ],
+    "AccountAttributeValues": [
+        {
+            "Id": "7b268586-9e86-4072-a4f0-3860534da3c0",
+            "AttributeId": "7e7bfc6b-cd3e-4c31-b76e-8ceb3d2d6eb5",
+            "AttributeName": "CEO Name",
+            "Value": "John Johnson"
+        }
+    ],
+    "AccountEntities": [
+        {
+            "Id": "e77c0b83-3cc1-40d7-9c55-8fe5c3a09096",
+            "Name": "Summa Health System"
+        },
+        {
+            "Id": "d6d4325d-edef-4bb8-97f5-6aba02b68203",
+            "Name": "Summa Barberton Labcare"
+        },
+        {
+            "Id": "784c7782-1b98-42d0-83ae-263836bcb7bf",
+            "Name": "Summa Health Barberton"
+        }
+    ],
+    "AccountPayers": [],
+    "AccountPhones": [],
+    "AccountProducts": [],
+    "AccountProviders": [],
+    "AccountTags": [],
+    "_rid": "IX46ALqtXu0BAAAAAAAAAA==",
+    "_self": "dbs/IX46AA==/colls/IX46ALqtXu0=/docs/IX46ALqtXu0BAAAAAAAAAA==/",
+    "_etag": "\"00000000-0000-0000-fd8c-8ee2124301d7\"",
+    "_attachments": "attachments/",
+    "_ts": 1640875816
+}
